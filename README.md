@@ -1,35 +1,47 @@
-# 📚 WeLearn LMS
+mobile-first Learning Management System (LMS) built with Flutter, Node.js, Firebase, and MongoDB, designed to provide seamless experiences for both students and instructors.
 
-**WeLearn** is a modern cross-platform **Learning Management System (LMS)** built using **Flutter** for mobile and powered by a Node.js backend. It enables students to access educational content and instructors to manage learning modules — all from one app.
+Students can explore and enroll in courses, watch video lectures, take quizzes, and track progress. Instructors can create and manage courses, upload lectures, and evaluate student performance.
 
----
+🚀 Features
+👨‍🎓 For Students
 
-## 🚀 Features
+Enroll in available courses
 
-### 👨‍🎓 Student Features
-- User Registration & Login
-- Browse and Enroll in Courses
-- Video Lectures Streaming
-- Quiz Attempt and Evaluation
-- Certificate Generation
-- User Profile & Progress Tracking
+Stream video lectures directly in the app
 
-### 👩‍🏫 Instructor/Admin Features
-- Upload Courses with Videos and PDFs
-- Add Quizzes & Exams
-- View Enrolled Students and Analytics
-- Role-Based Access (Student/Instructor/Admin)
+Attempt quizzes and view results
 
----
+Track course progress with a clean dashboard
 
-## 🛠️ Tech Stack
+👨‍🏫 For Instructors
 
-| Layer        | Tech                                |
-|--------------|--------------------------------------|
-| Frontend     | [Flutter](https://flutter.dev/) + Dart |
-| Backend      | [Node.js](https://nodejs.org/) + Express.js |
-| Database     | MongoDB / PostgreSQL (depending on setup) |
-| Auth         | JWT (JSON Web Token)                |
-| Storage      | Firebase / AWS S3 / Local           |
-| State Mgmt   | Provider / Riverpod / BLoC           |
+Create and manage courses
 
+Upload video lectures (via Firebase Storage)
+
+Create quizzes and assignments
+
+Access analytics of enrolled students
+
+🔑 Core System Features
+
+Authentication & Authorization: Secure login using JWT with role-based dashboards (Student / Instructor)
+
+Scalable Media Hosting: Firebase Storage for video and media files
+
+Database: MongoDB for efficient handling of user, course, and quiz data
+
+Backend: Node.js + Express REST API
+
+🛠️ Tech Stack
+
+Frontend (Mobile): Flutter
+
+Backend: Node.js
+ + Express
+
+Authentication: JSON Web Tokens (JWT)
+
+Database: MongoDB
+
+Media Hosting: Firebase Storage
